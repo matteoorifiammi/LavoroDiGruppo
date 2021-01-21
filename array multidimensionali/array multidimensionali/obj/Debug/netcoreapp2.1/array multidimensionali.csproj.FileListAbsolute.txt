@@ -1,0 +1,11 @@
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\bin\Debug\netcoreapp2.1\array multidimensionali.deps.json
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\bin\Debug\netcoreapp2.1\array multidimensionali.runtimeconfig.json
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\bin\Debug\netcoreapp2.1\array multidimensionali.runtimeconfig.dev.json
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\bin\Debug\netcoreapp2.1\array multidimensionali.dll
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\bin\Debug\netcoreapp2.1\array multidimensionali.pdb
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\obj\Debug\netcoreapp2.1\array multidimensionali.csprojAssemblyReference.cache
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\obj\Debug\netcoreapp2.1\array multidimensionali.csproj.CoreCompileInputs.cache
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\obj\Debug\netcoreapp2.1\array multidimensionali.AssemblyInfoInputs.cache
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\obj\Debug\netcoreapp2.1\array multidimensionali.AssemblyInfo.cs
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\obj\Debug\netcoreapp2.1\array multidimensionali.dll
+C:\informatica 3 F christian\array multidimensionali\array multidimensionali\obj\Debug\netcoreapp2.1\array multidimensionali.pdb
