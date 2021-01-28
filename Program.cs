@@ -15,24 +15,23 @@ namespace menu_inserimento_alberi
         }
         static void aggiuntaAlberi()
         {
-
-            Console.WriteLine("Che albero vuoi, piantare?");//Il programma chiede che albero l'utente vuole piantare
-            string albero = "";//Variabile per l'inserimento del nome dell'albero 
-            albero = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("Sei sicuro del nome dell'albero? Digita Sì o No");//Il programma chiede se l'utente ha inserito in modo corretto il nome dell'albero 
-            string risposta = "";//Variabile per l'inserimento della risposta
-            risposta = Convert.ToString(Console.ReadLine());
-            while ((risposta == "no") | (risposta == "NO") | (risposta == "No") | (risposta == "nO"))//Ciclo per richiedere il nome dell'albero nel caso la risposta sia stata "no"
+            int temp = 0;
+                while (temp == 0)
             {
-                Console.WriteLine("Che albero vuoi, piantare?");
-                string Albero = "";
-                Albero = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("Sei sicuro del nome dell'albero? Digita Sì o No");
-                string Risposta = "";
-                Risposta = Convert.ToString(Console.ReadLine());
-                if ((Risposta == "sì") | (Risposta == "Sì") | (Risposta == "Si") | (Risposta == "SI")|(Risposta=="si"))//Se la risposta è "si" si esce dal ciclo
+                Console.WriteLine("Che albero vuoi, piantare?");//Il programma chiede che albero l'utente vuole piantare
+                string albero = Convert.ToString(Console.ReadLine()); //Variabile per l'inserimento del nome dell'albero 
+                Console.WriteLine("Sei sicuro del nome dell'albero? Digita Sì o No");//Il programma chiede se l'utente ha inserito in modo corretto il nome dell'albero 
+                string risposta = Convert.ToString(Console.ReadLine());//Variabile per l'inserimento della risposta
+                if ((risposta == "sì") | (risposta == "Sì") | (risposta == "Si") | (risposta == "SI") | (risposta == "si"))//Se la risposta è "si" si esce dal ciclo
                 {
-                    break;
+                    temp = 1;
+                }else if ((risposta == "no") | (risposta == "NO") | (risposta == "No") | (risposta == "nO"))//Se la risposta è "no" vieni richiesto il nome dell'albero
+                {
+                    temp = 0;
+                }
+                else
+                {
+                    Console.WriteLine("Risposta non accettata, ri-digitare l'albero e la risposta");//Se la risposta non è nè "no" nè "sì" viene richiesto l'albero e la risposta
                 }
             }
             Console.Clear();//Viene "pulita" la console dalle scritte precedenti 
@@ -63,19 +62,11 @@ namespace menu_inserimento_alberi
                         DateTime anniVita = result.AddYears(annoV);//Viene calcolata la data in cui la pianta morirà
                         Console.WriteLine("La morte della pianta è prevista per il: {0}", anniVita);//Viene visualizzato in schermo la data
 
-            }
+                    }           
                     else
                     {
                         Console.WriteLine("Data inserita non valida");//Viene visualizzato su schermo ceh la data inserita non è valida
                     }
-
-
-                }
-            }
         }
-    
-
-   
-
-
-
+    }
+}
